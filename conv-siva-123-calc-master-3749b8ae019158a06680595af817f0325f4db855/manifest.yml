@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: conv-siva-123-calc
+  host: conv-siva-123-calc
+  disk_quota: 1024M
+  services:
+  - Conversation-demo
+  env:
+    WORKSPACE_ID: 40a4906b-7a38-41b9-b0a5-208c3ec2f913
